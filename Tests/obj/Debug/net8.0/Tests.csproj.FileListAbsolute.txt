@@ -1,0 +1,7 @@
+F:\prog\HotelBookingAPI\HotelBookingAPI\Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Tests
+F:\prog\HotelBookingAPI\HotelBookingAPI\Tests\obj\Debug\net8.0\Tests.csproj.AssemblyReference.cache
+F:\prog\HotelBookingAPI\HotelBookingAPI\Tests\obj\Debug\net8.0\MvcTestingAppManifest.json
+F:\prog\HotelBookingAPI\HotelBookingAPI\Tests\obj\Debug\net8.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\prog\HotelBookingAPI\HotelBookingAPI\Tests\obj\Debug\net8.0\Tests.AssemblyInfoInputs.cache
+F:\prog\HotelBookingAPI\HotelBookingAPI\Tests\obj\Debug\net8.0\Tests.AssemblyInfo.cs
+F:\prog\HotelBookingAPI\HotelBookingAPI\Tests\obj\Debug\net8.0\Tests.csproj.CoreCompileInputs.cache

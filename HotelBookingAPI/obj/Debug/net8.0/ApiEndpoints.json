@@ -1,0 +1,201 @@
+[
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.BookingsController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/Bookings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HotelBookingAPI.Models.DTOs.CreateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HotelBookingAPI.Models.DTOs.BookingDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.BookingsController",
+    "Method": "GetBooking",
+    "RelativePath": "api/Bookings/{bookingReference}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookingReference",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HotelBookingAPI.Models.DTOs.BookingDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.HotelsController",
+    "Method": "GetHotel",
+    "RelativePath": "api/Hotels/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HotelBookingAPI.Models.DTOs.HotelDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.RoomsController",
+    "Method": "GetAvailableRooms",
+    "RelativePath": "api/Rooms/available",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "checkIn",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "checkOut",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "numberOfGuests",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HotelBookingAPI.Models.Room, HotelBookingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.TestController",
+    "Method": "GetBookings",
+    "RelativePath": "api/Test/getBookings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HotelBookingAPI.Models.DTOs.BookingDto, HotelBookingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.TestController",
+    "Method": "GetHotels",
+    "RelativePath": "api/Test/getHotels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HotelBookingAPI.Models.DTOs.HotelDto, HotelBookingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.TestController",
+    "Method": "GetRooms",
+    "RelativePath": "api/Test/getRooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HotelBookingAPI.Models.DTOs.RoomDto, HotelBookingAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.TestController",
+    "Method": "Reset",
+    "RelativePath": "api/Test/reset",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingAPI.Controllers.TestController",
+    "Method": "SeedTestData",
+    "RelativePath": "api/Test/seed",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
