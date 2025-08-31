@@ -13,7 +13,7 @@ namespace HotelBookingAPI
 
             // Add services to the container.
             builder.Services.AddDbContext<BookingDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseInMemoryDatabase("BookingDb"));
 
             builder.Services.AddScoped<BookingService>();
             builder.Services.AddScoped<RoomService>();
